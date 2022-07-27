@@ -1,0 +1,25 @@
+{
+  "name": "pablo/vault2",
+  "require": {
+    "ext-json": "*",
+    "mittwald/vault-php": "^1.1",
+    "guzzlehttp/guzzle": "^7.4",
+    "monolog/monolog": "^3.1",
+    "php-http/curl-client": "^2.2",
+    "laminas/laminas-diactoros": "^2.13",
+    "ext-pdo": "*",
+    "ext-openssl": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pablo\\Vault2\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Pablo Nunez",
+      "email": "fixwah@gmail.com"
+    }
+  ]
+}
